@@ -1,0 +1,17 @@
+.tab button {
+    width: 100px;
+    height: 50px;
+}
+.tab button.active{
+    background-color: red;
+}
+.tab div {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    background:pink;
+    display: none;
+}
+.tab div.active {
+    display: block;
+}
